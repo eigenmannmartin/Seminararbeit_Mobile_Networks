@@ -1,7 +1,11 @@
+# Titel
+
+Herstellen einer WLAN Verbindung über grosse Distanzen
+
 
 # Thema
 
-Ziel der Arbeit ist es die Grenzen von WLAN auszuloten weit über die spezifizierte Distanz eine Datenverbindung auf zu bauen.
+Ziel der Arbeit ist es ein mit WLAN weit über die spezifizierte Distanz eine Datenverbindung auf zu bauen.
 
 # Ausgangslage
 
@@ -39,3 +43,9 @@ R4 Umsetzung:
 - Dokumentation der Umsetzung der beiden Lösungsvorschläge
 R5 Review:
 - Dokumentation der Bewertung der Lösungsvorschläge
+
+# Termine
+
+27.05.2015: Einreichen eines Drafts
+17.06.2015: Präsentation
+18.06.2015: Präsentation
