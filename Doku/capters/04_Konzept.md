@@ -1,11 +1,26 @@
-<!-- Konzept ist eim Modell, Hypothese die aufgestellt wird-->
+
+
+# Konzept
+
+<!-- Konzept ist ein Modell, Hypothese die aufgestellt wird-->
+<!-- Hypothese Erreichung von > 8KM Distanz-->
+
+## Verminderung der Dämpfung
+<!-- Bessere Antenne/Stecker  + Erklärung der Verbesserung, Verbesserung Empfang und Sende-Leistung-->
+
+## Erhöhung der Sendeleistung
+<!-- Rechtliche Grenzen +  Erklärung der Verbesserung-->
+
+## Richtstrahlantenne
+<!-- Verbesserung Empfang und Sende-Leistung -->
+
 
 <!-- Eigener Beitrag zur Lösung des Problems
 Hier steht der eigene Beitrag zur Lösung der Aufgaben und Probleme im Vordergrund,
 d.h.
-- Beschreibung des verwendeten oder zur Verfügung gestandenen Materials
-- Begründung, warum dieses Material herangezogen wurde, zum Beispiel auf Grund von Standardliteratur, Fachartikeln oder eigener Berufserfahrung
-- Aufzeigen von Ungenauigkeiten, Rahmenbedingungen und Schwierigkeiten bei der Problemlösung
-- Beschreibung des methodischen Vorgehens, des Experiments usw.
+- Beschreibung des verwendeten oder zur Verfügung gestandenen Materials [check]
+- Begründung, warum dieses Material herangezogen wurde, zum Beispiel auf Grund von Standardliteratur, Fachartikeln oder eigener Berufserfahrung [check]
+- Aufzeigen von Ungenauigkeiten, Rahmenbedingungen und Schwierigkeiten bei der Problemlösung [Messresultate abhängig vom Wetter]
+- Beschreibung des methodischen Vorgehens, des Experiments usw. [Prototyp]
 - Zusammenfassung der Ergebnisse aus dem eigenen Beitrag
 -->
