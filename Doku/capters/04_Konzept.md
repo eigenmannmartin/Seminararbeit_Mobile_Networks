@@ -5,6 +5,10 @@
 <!-- Konzept ist ein Modell, Hypothese die aufgestellt wird-->
 <!-- Hypothese Erreichung von > 8KM Distanz-->
 
+
+
+<!-- 2,4GHz besser geeignet, da bessere Ausbreitung -->
+
 ## Verminderung der Dämpfung
 <!-- Bessere Antenne/Stecker  + Erklärung der Verbesserung, Verbesserung Empfang und Sende-Leistung-->
 
