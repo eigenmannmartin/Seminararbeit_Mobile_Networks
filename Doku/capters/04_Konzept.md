@@ -12,11 +12,33 @@
 ## Verminderung der Dämpfung
 <!-- Bessere Antenne/Stecker  + Erklärung der Verbesserung, Verbesserung Empfang und Sende-Leistung-->
 
+Um die Ausgangsleistung zu maximieren, muss die Dämpfung zwischen Sender und Antenne minimiert werden. Dies wird duch Qualitativ hochwertige Steckverbinder und kurze Signalkabel sichergestellt.
+
+Auf der Basistation sind von der Antenne bis zum Sender nur 2 Meter Kabel verbaut. Das Gegenstück der Basistation kommt hingegen mit nur 1 Meter Antennenkabel aus. Verwendet werden soll ein Kabel mit einer Dämpfung von maximal 1.2dB/m.
+
 ## Erhöhung der Sendeleistung
 <!-- Rechtliche Grenzen +  Erklärung der Verbesserung-->
+Die maximal zulässige Sendeleistung vom 20dBm wird nicht von allen WLan-Karten untersützt. Der Ubiquiti SuperRange Cardbus kann bei einer Übertragungsrate von 54Mbps immer noch mit einer Sendeleistung von 20dBm operieren. Unterhalb Übertragungsraten von 24Mbps sind sogar 24dBm möglich.
+<!-- http://dl.ubnt.com/src_datasheet.pdf -->
 
 ## Richtstrahlantenne
 <!-- Verbesserung Empfang und Sende-Leistung -->
+Statt einen Rundstrahler zu verwenden, kann auch eine Richtung des Signals vorgenommen werden. Dazu werden typischerweise Richstrahlantennen eingesetzt.
+Neben der Yagi-Uda-Antenne, Wendelantenne und der Quadantenne gibt es auch Parabolantennen.
+
+Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlichstark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus.
+
+Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi.
+<!-- Bild -->
+
+Die verwendete Parabolantenne hat einen Antennengewinn von ~27dBi.
+<!-- Bild -->
+<!-- Beschreibung, Satelittenschüssel, Eigenbau, Nötig da 8,5KM Distanz nur sehr unstabil) -->
+
+
+## Abschluss
+
+<!-- Zusannemfassung -->
 
 
 <!-- Eigener Beitrag zur Lösung des Problems

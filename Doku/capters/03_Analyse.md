@@ -31,8 +31,14 @@ Das elektromagnetische Signal einer WLAN Anlage wird durch das Übertragungsmedi
 
 $F = (\frac{4\pi r * f }{c})^2$
 
-<!-- Berechnung und Einführung der Dämpfung (dB) nach Entfernung-->
+Mit den eingesetzten Werten ergibt sich eine logarithmische Funktion.
+<!-- Bild der Kurve-->
 
+Neben der Freiraumdämpfung, vermindern auch das Signalkabel vom Sender zur Antenne und Steckverbinder die Ausgangsleistung der Anlage. Gängige Antennenkabel weisen eine Dämpfung von 117.9dB/100m bis 16.0dB/100m auf.<!-- http://www.profi-wlan.de/info_pages.php/pages_id/13 --> Steckverbinder dämpfen zusätzlich mit 0.2dB bis 0.5dB.
+
+Moderne Wlan-Geräte besitzen eine Empfangsempfindlichkeit von bis zu -96dBm bei 1Mbps. Bei höheren Übertragungsraten nimmt die Empfangsempfindlichkeit systembedingt ab. So sind bei 54Mbps bei guten Endgeräten -73dBm zu erwarten.
+
+Bei einer Sendeleistung von genau 20dBm und unter Verwendung eines isotropen Kugelstrahler (einer idealen Rundstrahlentanne) können bei einer Empfangsempfindlichkeit von -73dBm maximal 443m Distanz überwunden werden. In der Praxis werden weder 20dBm Ausgangsleistung erreicht noch existieren störungsfreie Räume. 
 
 
 ## Rechtliche Limitationen
