@@ -26,13 +26,19 @@ Die maximal zulässige Sendeleistung vom 20dBm wird nicht von allen WLan-Karten 
 Statt einen Rundstrahler zu verwenden, kann auch eine Richtung des Signals vorgenommen werden. Dazu werden typischerweise Richstrahlantennen eingesetzt.
 Neben der Yagi-Uda-Antenne, Wendelantenne und der Quadantenne gibt es auch Parabolantennen.
 
-Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlichstark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus.
+Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich stark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus.
+
+Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule, sowie der Aubildung von Neben- und Rückkeulen.
+
+
 
 Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi.
-<!-- Bild -->
+<!-- Bild Ausbreitungsgraph -->
 
-Die verwendete Parabolantenne hat einen Antennengewinn von ~27dBi.
-<!-- Bild -->
+Die verwendete Parabolantenne hat einen Antennengewinn von ~30dBi.
+<!-- Bild Ausbreitungsgraph -->
+
+Da die Funkverbindung über eine Distanz von 8.5 Km mit der Yagi-Uda-Antenne instabil und langsam betreiben werden konnte, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine improvisierte Parabolantenne zu erhalten.
 <!-- Beschreibung, Satelittenschüssel, Eigenbau, Nötig da 8,5KM Distanz nur sehr unstabil) -->
 
 

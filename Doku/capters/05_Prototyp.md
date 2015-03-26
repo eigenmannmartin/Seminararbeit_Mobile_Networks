@@ -7,6 +7,7 @@
 
 ## verbesserte Antenne
 <!-- Setup + Messungen -->
+![Parabolantenne](img/parabol.png)
 
 ## Richtstrahlantenne
 <!-- Setup + Messunge -->

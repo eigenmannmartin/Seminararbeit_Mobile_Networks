@@ -45,7 +45,7 @@ Bei einer Sendeleistung von genau 20dBm und unter Verwendung eines isotropen Kug
 Die rechtliche Beschränkungen sind je nach Einsatzgebiet unterschiedlich und werden in der Schweiz vom Bundesamt für Kommunikation vorgeschrieben.
 
 ### 2.4 GHz Frequenzband
-Die Leistung der Anlage ist auf maximal 100mW begrenzt. [@bakomwlan]
+Die Leistung der gesamten Anlage ist im 2.4 GHz Band auf maximal 100mW begrenzt. [@bakomwlan]
 
 ### 5 GHz Frequenzband
 Die Leistung der Anlage ist für das untere 5 GHz Frequenzband (5.15 - 5.35 GHz) ist auf maximal 100mW (200mW falls die Anlage TPC unterstützt) und für das obere 5 GHz Frequenzband (5.47 - 5.725 GHz) auf maximal 500mW (1000mW falls die Anlage TPC unterstützt) begrenzt. [@bakomwlan]
