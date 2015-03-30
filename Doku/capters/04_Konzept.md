@@ -11,25 +11,22 @@
 
 ## Verminderung der Dämpfung
 <!-- Bessere Antenne/Stecker  + Erklärung der Verbesserung, Verbesserung Empfang und Sende-Leistung-->
+Um die Ausgangsleistung zu maximieren, muss die Dämpfung zwischen Sender und Antenne minimiert werden. Dies wird duch Qualitativ hochwertige Steckverbinder und kurze Signalkabel erreicht.
 
-Um die Ausgangsleistung zu maximieren, muss die Dämpfung zwischen Sender und Antenne minimiert werden. Dies wird duch Qualitativ hochwertige Steckverbinder und kurze Signalkabel sichergestellt.
-
-Auf der Basistation sind von der Antenne bis zum Sender nur 2 Meter Kabel verbaut. Das Gegenstück der Basistation kommt hingegen mit nur 1 Meter Antennenkabel aus. Verwendet werden soll ein Kabel mit einer Dämpfung von maximal 1.2dB/m.
+An der Basistation sind von der Antenne bis zum Sender nur 2 Meter Kabel verbaut. Das Gegenstück der Basistation kommt mit nur 1 Meter Antennenkabel aus. Verwendet werden soll ein Kabel mit einer Dämpfung von maximal 1.2dB/m. So ergibt sich eine Gesamtdämpfung durch Signalkabel und Stecker von $(3m * 1.2dB/m + 4 * 0.1dB)$ 4dB.
 
 ## Erhöhung der Sendeleistung
 <!-- Rechtliche Grenzen +  Erklärung der Verbesserung-->
-Die maximal zulässige Sendeleistung vom 20dBm wird nicht von allen WLan-Karten untersützt. Der Ubiquiti SuperRange Cardbus kann bei einer Übertragungsrate von 54Mbps immer noch mit einer Sendeleistung von 20dBm operieren. Unterhalb Übertragungsraten von 24Mbps sind sogar 24dBm möglich.
+Die maximal zulässige Sendeleistung vom 20dBm wird nicht von allen WLan-Karten untersützt. Der Ubiquiti SuperRange Cardbus kann bei einer Übertragungsrate von 54Mbps immer noch mit einer Sendeleistung von 20dBm operieren. Unterhalb der Übertragungsraten von 24Mbps sind sogar 24dBm möglich.
 <!-- http://dl.ubnt.com/src_datasheet.pdf -->
 
 ## Richtstrahlantenne
 <!-- Verbesserung Empfang und Sende-Leistung -->
-Statt einen Rundstrahler zu verwenden, kann auch eine Richtung des Signals vorgenommen werden. Dazu werden typischerweise Richstrahlantennen eingesetzt.
+Statt einen Rundstrahler zu verwenden, kann auch eine gerichtete Verstärkung des Signals vorgenommen werden. Dazu werden typischerweise Richstrahlantennen eingesetzt.
 Neben der Yagi-Uda-Antenne, Wendelantenne und der Quadantenne gibt es auch Parabolantennen.
+Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich stark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus. Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule, sowie der Aubildung von Neben- und Rückkeulen.
 
-Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich stark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus.
-
-Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule, sowie der Aubildung von Neben- und Rückkeulen.
-
+Die Yagi-Uda-Antenne und die Parabolantenne werden im Rahmen dieser Seminararbeit verwendet, da beide Antennen eine grosse Flexibilität bieten und die Yagi-Uda-Antenne als Sende-Einheit der Parabolantenne verwendet werden kann.
 
 
 Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi.
@@ -38,7 +35,7 @@ Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengew
 Die verwendete Parabolantenne hat einen Antennengewinn von ~30dBi.
 <!-- Bild Ausbreitungsgraph -->
 
-Da die Funkverbindung über eine Distanz von 8.5 Km mit der Yagi-Uda-Antenne instabil und langsam betreiben werden konnte, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine improvisierte Parabolantenne zu erhalten.
+Da die Funkverbindung über eine Distanz von 8.5 Km mit der Yagi-Uda-Antenne nur instabil und langsam betreiben werden konnte, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine  Parabolantenne zu erhalten.
 <!-- Beschreibung, Satelittenschüssel, Eigenbau, Nötig da 8,5KM Distanz nur sehr unstabil) -->
 
 
