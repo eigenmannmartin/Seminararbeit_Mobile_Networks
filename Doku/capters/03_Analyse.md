@@ -33,6 +33,10 @@ $F = (\frac{4\pi r * f }{c})^2$
 
 Mit den eingesetzten Werten ergibt sich eine logarithmische Funktion.
 <!-- Bild der Kurve-->
+<!-- 
+Sys.setlocales("LC_ALL", "en_US.UTF-8")
+curve(20*log(x,10)+20*log(2400000000,10)-147.55, 0, 1000,  xlab='Distanz (d/m)', ylab='Freiraumdämpfung (dB)')
+-->
 
 Neben der Freiraumdämpfung, vermindern auch das Signalkabel vom Sender zur Antenne und Steckverbinder die Ausgangsleistung der Anlage. Gängige Antennenkabel weisen eine Dämpfung von 117.9dB/100m bis 16.0dB/100m auf.<!-- http://www.profi-wlan.de/info_pages.php/pages_id/13 --> Steckverbinder dämpfen zusätzlich mit 0.2dB bis 0.5dB.
 
