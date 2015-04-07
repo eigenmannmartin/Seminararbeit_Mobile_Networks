@@ -29,13 +29,13 @@ Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich 
 
 Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule, sowie der Aubildung von Neben- und Rückkeulen.
 
-Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi.
+Die verwendete Richstrahlantenne ist eine Yagi-Uda-Antenne mit einem Antennengewinn von 9.8 dBi bzw. 18dBi.
 <!-- Bild Ausbreitungsgraph -->
 
 Die verwendete Parabolantenne hat einen Antennengewinn von ~30dBi.
 <!-- Bild Ausbreitungsgraph -->
 
-Da die Funkverbindung über eine Distanz von 8.5 Km mit der Yagi-Uda-Antenne sehr instabil und langsam war, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine improvisierte Parabolantenne zu erhalten.
+<!-- Da die Funkverbindung über eine Distanz von 6 Km mit der Yagi-Uda-Antenne sehr instabil und langsam war, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine improvisierte Parabolantenne zu erhalten. -->
 
 
 ## Abschluss

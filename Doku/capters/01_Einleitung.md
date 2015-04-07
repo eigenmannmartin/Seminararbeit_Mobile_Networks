@@ -4,7 +4,15 @@
 
 ## Motivation und Fragestellung
 
+Wer kennt das nicht, das mobile Datennetz ist langsam oder das Datenvolumen ist bereits aufgebraucht. Im entscheidenden Moment lädt das Bild oder Video nicht. Wäre es nicht viel angenehmer überall WLan Empfang zu haben.
+
+>Zuhause ist, wo sich das WLan selbst verbindet.
+
+Diese Arbeit soll aufzeigen wo die Grenzen von WLan liegen und ob die Grenzen vielleicht doch etwas entfernter liegen als intuitiv vermutet.
+
 ## Aufgabenstellung
+
+Im Folgenden ist die Aufgabenstellung gemäss EBS aufgeführt.
 
 ### Thema
 
