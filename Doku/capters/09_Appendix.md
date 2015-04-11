@@ -7,13 +7,15 @@
 ## Zeitpan
 <!-- detaillierte Projektplan -->
 
+## Glossar
+TPC (Transmit Power Control) 
+
 ## Quellenverzeichnis
 
 \vspace*{-2.5cm}
 \renewcommand{\bibname}{}\begingroup \let\clearpage\relax
 \printbibliography
 \endgroup
-
 
 ## Tabellenverzeichnis
 \renewcommand{\listtablename}{} \begingroup \let\clearpage\relax

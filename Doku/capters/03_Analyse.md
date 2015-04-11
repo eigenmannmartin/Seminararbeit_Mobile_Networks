@@ -26,19 +26,13 @@ Standard    Frequenzband    Datenrate (max)
 802.11ad    60 GHz          6,7 Gbit/s
 --------------------------------------------
 Table: Standards \label{standards}
+<!-- Quelle? -->
 
 ### Antenne
-Idealerweise ist eine Antenne ein Rundstrahler, welcher eine gleichförmige Sendeleistung aufweist. Üblicherweise werden aber Antennen verwendet, welche das Signal richten, also zum Beispiel in der Vertikalen weniger Leistung aufweisen, in der Horizontalen dafür weitreichender sind.
+Idealerweise ist eine Antenne ein Rundstrahler, welcher eine gleichförmige Sendeleistung aufweist. Üblicherweise werden aber Antennen verwendet, welche das Signal richten, also zum Beispiel in der Vertikalen weniger Leistung aufweisen, in der Horizontalen dafür weitreichender sind. So haben handelsübliche Stabantennen von Routern eine Verstärkungswirkung um den Faktor zwei in der horizontalen Ebene.
 
 ### Sendeanlage
 Eine Sendeanlage umfasst die Sendeeinheit (WLAN-Karte), Antennenkabel und Antenne. Dazugehörend sind auch anfällige Steckverbinder.
-
-
-## Diskussion Aufgabenstellung
-
-<!-- Beschreibung der Aufgabe oder des Problems und evtl. eine geschichtliche Einordnung des Themas (kann auch Teil der Einleitung sein). -->
-Diese Seminararbeit befasst sich mit dem Aufbau einer WLAN-Verbindung über eine gössere Distanz.
-
 
 ## Technische Limitationen
 <!-- Was ist bekannt, wo können wir ansetzten -->
@@ -55,19 +49,19 @@ Das elektromagnetische Signal einer WLAN Anlage wird durch das Übertragungsmedi
 
 $F = (\frac{4\pi r * f }{c})^2$
 
-Für die Frequenz 2.4GHz ergibt sich eine Kurve wie in Abbildung {@fig:fa} gezeigt.
+Für die Frequenz 2.4GHz ergibt sich eine Freiraumdämpfungs-Kurve wie in Abbildung {@fig:fa} gezeigt.
 
 ![Freiraumdaempfung](img/Freiraumdaempfung.png) {#fig:fa} \
 
 <!-- Sys.setlocales("LC_ALL", "en_US.UTF-8")
-curve(20*log(x,10)+20*log(2400000000,10)-147.55, 0, 1000,  xlab='Distanz (d/m)', ylab='Freiraumdämpfung (dB)')
+curve(20*log(x,10)+20*log(2400000000,10)-147.55, 0, 10000000,  xlab='Distanz (d/m)', ylab='Freiraumdämpfung (dB)')
 -->
 
 Neben der Freiraumdämpfung, vermindern auch das Signalkabel vom Sender zur Antenne und Steckverbinder die Ausgangsleistung der gesamten Anlage. Gängige Antennenkabel weisen eine Dämpfung von 117.9dB/100m bis 16.0dB/100m auf.<!-- http://www.profi-wlan.de/info_pages.php/pages_id/13 --> Steckverbinder dämpfen zusätzlich mit 0.2dB bis 0.5dB.
 
 Moderne Wlan-Geräte besitzen eine Empfangsempfindlichkeit von bis zu -96dBm bei 1Mbps. Bei höheren Übertragungsraten nimmt die Empfangsempfindlichkeit systembedingt ab. So sind bei 54Mbps bei guten Endgeräten -73dBm zu erwarten.
 
-Bei einer Sendeleistung von genau 20dBm und unter Verwendung eines isotropen Kugelstrahler (einer idealen Rundstrahlentanne) können bei einer Empfangsempfindlichkeit von -73dBm maximal 443m Distanz überwunden werden. In der Praxis werden weder 20dBm Ausgangsleistung erreicht noch existieren störungsfreie Räume.
+Bei einer Sendeleistung von genau 20dBm (entspricht 100mW) und unter Verwendung eines isotropen Kugelstrahler (einer idealen Rundstrahlentanne) können bei einer Empfangsempfindlichkeit von -73dBm maximal 443m Distanz überwunden werden. In der Praxis werden weder 20dBm Ausgangsleistung erreicht noch existieren störungsfreie Räume.
 
 
 ## Rechtliche Limitationen

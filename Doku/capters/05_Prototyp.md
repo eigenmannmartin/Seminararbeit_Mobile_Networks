@@ -8,31 +8,40 @@ Es wird nur eine Messung durchgeführt falls auch eine Verbindung hergestellt we
 
 ## Richtstrahlantenne
 <!-- Setup + Messungen -->
-Um das WLAN-Signal zu verstärken, wird eine Yagi-Uda-Antenne mit einem Reflektor, einem Signalgeber und vier Direktoren verwendet.
-![RouterYagi](img/router-yagi.jpg)
+Um das WLAN-Signal zu verstärken, wird eine Yagi-Uda-Antenne mit einem Reflektor, einem Signalgeber und fünf Direktoren verwendet. (Siehe Abbildung {@fig:routeryagi}) Dabei handelt es sich um einen Eigenbau. Bauanleitungen mit detaillierten Beschreibungen und Hintergrundinformationen sind online verfügbar. [@eigenbauyagi]
+
+![RouterYagi](img/router-yagi.jpg) {#fig:routeryagi}
 
 Der Antennengewinn liegt bei 9.8dBi. Bei einer Entfernung von 200 Metern und einer Ausgangsleistung von 16dB, ist mit -60dBm Empfangslevel zu rechnen. 
 
-Bei einer Distanz von 200 Metern ist ohne ein modifiziertes Gegenstück immer noch eine sehr gute Verbindung erreichbar.
-![RouterYagiErg](img/router-yagi-reg.jpg)
+Bei einer Distanz von 200 Metern ist ohne ein modifiziertes Gegenstück also immer noch eine sehr gute Verbindung erreichbar. Mit einem handelsüblichen Notebook sind genau -60dBm gemessen worden. (dazu Abbildung {@fig:router-yagi-reg})
+
+![Screenshot: Wavemon selbstgebaute YAGI](img/router-yagi-reg.jpg) {#fig:router-yagi-reg} <!-- additional text needed, description -->
+
 
 ## Richtstrahlantenne II
 <!-- Setup + Messunge -->
-Die nächst grössere Distanz von ~1100 Metern ist keine ungestörte Sichtverbindung möglich und daher eine bessere Antenne nötig.
-![Yagi](img/yagi-wald.jpg)
+Die nächst grössere Distanz, die überwunden werden soll, beträgt mehr als 1100 Meter. Da mit der selbst gebauten Yagi-Uda-Antenne kein Verbindungsaufbau möglich war, ist eine bessere Antenne nötig.
 
-Mit zwei aufeinander ausgerichteten Yagi-Uda-Antennen vom Typ ABAKS YAGI-18 die jeweils einen Antennengewinn von 18dBi, einer Sendeleistung von 21.1dB $( 24dB - (2.4dB + 0.5dB) )$ bzw. 22.3dB $( 24dB - (1.2dB + 0.5dB) )$ ist idealerweise mit einem Empfangslevel von -60dBm zu rechnen.
+Mit zwei aufeinander ausgerichteten Yagi-Uda-Antennen vom Typ ABAKS YAGI-18 die mit jeweils 15 Direktoren einen Antennengewinn von 18dBi aufweisen und einer Sendeleistung von 21.1dB bzw. 22.3dB ist idealerweise mit einem Empfangslevel von -60dBm zu rechnen.
 
-Das gemessene Empfangslevel von -80dBm bzw. die Differenz von 20dBm zu dem erwarteten Ergebniss, ist den störenden Objekten im Funkpfad geschuldet.
-![YagiReg](img/yagi-reg.jpg)
+Die Sendeleistung von 21.1dB bzw. 22.3dB ergibt sich aus den 24dB maximaler Sendeleistung der WLAN-Karte abzüglich der 2.9dB bzw. 1.7dB Dämpfung für Kabel und Verbinder. 
+
+![ABAKS YAGI-18 im Wald](img/yagi-wald.jpg) {#fig:yagi-18}
+
+Das gemessene Empfangslevel von -80dBm (dazu Abbildung {@fig:yagi-reg}) bzw. die Differenz von 20dBm zu dem erwarteten Ergebniss, ist den störenden Objekten im Funkpfad geschuldet. 
+
+![Screenshot: Wavemon ABAKS YAGI-18](img/yagi-reg.jpg) {#fig:yagi-reg}
 
 ## Parabolspiegel
 <!-- Setup + Messunge -->
 Die grösste mögliche Distanz mit Sichtverbindung, welche im Rahmen dieser Arbeit betrachtet wird, beträgt bei 8340 Metern.
+
 ![Parabolantenne](img/parabol-point.jpg)
 
-Die WLAN-Parabolantenne ist eine Improvisation um die Richtwirkung der Yagi-Uda-Antenne weiter zu erhöhen. Es handelst sich dabei um einen Handelsüblichen Parabolspiegel, der auch für Satellitenfernsehen eingesetzt wird. Der Antennengewinn beträgt ~30dBi.
-![Parabolantenne](img/parabol.png)
+Die WLAN-Parabolantenne ist eine Improvisation um die Richtwirkung der Yagi-Uda-Antenne weiter zu erhöhen. Es handelst sich dabei um einen Handelsüblichen Parabolspiegel, der auch für Satellitenfernsehen eingesetzt wird. Der Antennengewinn beträgt ca. 30dBi. (Abbildung {@fig:parabolantenne})
 
-Mit der Parabol-Antenne mit einer Sendeleistung 22.3dB und einer darauf ausgerichteten Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
+![Parabolantenne](img/parabol.png) {#fig:parabolantenne}
+
+Mit der Parabolantenne mit einer Sendeleistung 22.3dB und einer darauf ausgerichteten Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
 ![YagiReg](img/parabol-reg.jpg)

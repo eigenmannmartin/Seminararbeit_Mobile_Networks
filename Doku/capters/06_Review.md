@@ -22,7 +22,7 @@ Die Kosten bewegen sich je nach verwendetem Parabolspiegel und Antenne im gehobe
 
 ## Bewertung
 Sowohl bezüglich der Leistung als auch der Handhabung überzeugt die eingesetzte Yagi-Uda-Antenne. Einfache Installation und grossartige Leistung um grosse Distanzen zu überbrücken runden das Paket hab. 
-Selbstgebaute Yagi-Uda-Antennen überzeugen zwar für den Heimgebrauch. Ihre Leistungsfähigkeit ist für einen professionellen jedoch ungeeignet.
+Selbstgebaute Yagi-Uda-Antennen überzeugen zwar für den Heimgebrauch. Ihre Leistungsfähigkeit ist für einen professionellen Gebrauch ist jedoch ungeeignet.
 Grosse Parabolantennen überzeugen zwar in Puncto Leistung, haben jedoch bei Handhabung und Preis deutliche Defizite.
 
 
