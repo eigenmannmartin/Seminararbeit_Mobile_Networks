@@ -59,6 +59,10 @@
 %define page margin
 \geometry{a4paper, top=30mm, left=30mm, right=30mm, bottom=30mm,headsep=10mm,footskip=10mm}
 
+\usepackage{tocloft}
+\setlength\cftbeforetoctitleskip{-2.5em}
+\setlength\cftbeforeloftitleskip{-2.5em}
+\setlength\cftbeforelottitleskip{-2.5em}
 
 $if(lhs)$
 \lstnewenvironment{code}{\lstset{language=r,basicstyle=\small\ttfamily}}{}
