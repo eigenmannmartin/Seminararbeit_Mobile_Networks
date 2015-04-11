@@ -9,8 +9,8 @@
 
 ## Quellenverzeichnis
 
-\begingroup
-\let\clearpage\relax
+\vspace*{-2.5cm}
+\renewcommand{\bibname}{}\begingroup \let\clearpage\relax
 \printbibliography
 \endgroup
 
