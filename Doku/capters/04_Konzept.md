@@ -1,9 +1,9 @@
 
 
 # Konzept
-
 <!-- Konzept ist ein Modell, Hypothese die aufgestellt wird-->
 <!-- Hypothese Erreichung von > 8KM Distanz-->
+Ziel dieses Konzepts ist über eine Distanz grösser 8000 Meter eine WLAN-Verbindung auf zu bauen.
 
 
 <!-- 2,4GHz besser geeignet, da bessere Ausbreitung -->
