@@ -6,7 +6,7 @@
 Es wird nur eine Messung durchgeführt falls auch eine Verbindung hergestellt werden kann. Zur Messung der Signalstärke wird das Linux-Tool $wavemon$ verwendet. Zur Feststellung der Übertragungsgeschwindigkeit und Stabilität der Verbindung wird $iperf$ verwendet.
 <!-- Tools zur Messung -->
 
-## verbesserte Antenne
+## Richtstrahlantenne
 <!-- Setup + Messungen -->
 Um das WLAN-Signal zu verstärken, wird eine Yagi-Uda-Antenne mit einem Reflektor, einem Signalgeber und vier Direktoren verwendet.
 ![RouterYagi](img/router-yagi.jpg)
@@ -16,7 +16,7 @@ Der Antennengewinn liegt bei 9.8dBi. Bei einer Entfernung von 200 Metern und ein
 Bei einer Distanz von 200 Metern ist ohne ein modifiziertes Gegenstück immer noch eine sehr gute Verbindung erreichbar.
 ![RouterYagiErg](img/router-yagi-reg.jpg)
 
-## Richtstrahlantenne
+## Richtstrahlantenne II
 <!-- Setup + Messunge -->
 Die nächst grössere Distanz von ~1100 Metern ist keine ungestörte Sichtverbindung möglich und daher eine bessere Antenne nötig.
 ![Yagi](img/yagi-wald.jpg)

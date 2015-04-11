@@ -10,7 +10,7 @@ Was sagt das Schrifttum aus? Wie können die Aussagen geordnet werden?
 
 <!-- Definitionen wichtigstes begriffliches Handwerkszeug definieren. Umfangreiche Definitionslisten in den Anhang übernehmen
 -->
-Mit Wireless Local Area Network, kurz WLAN, wird gemeinhin der IEEE-802.11 assoziiert. Die Tabelle {@fig:standards} zeigt die bisher freigegebenen Standards.
+Mit Wireless Local Area Network, kurz WLAN, wird gemeinhin der IEEE-802.11 assoziiert. Die Tabelle \ref{standards} zeigt die bisher freigegebenen Standards.
 
 -----------------------------------------------
 Standard    Frequenzband    Datenrate (max)
@@ -25,7 +25,7 @@ Standard    Frequenzband    Datenrate (max)
 802.11ac    5 GHz           660 Mbit/s
 802.11ad    60 GHz          6,7 Gbit/s
 --------------------------------------------
-Table: Standards {#fig:standards}
+Table: Standards \label{standards}
 
 ### Antenne
 Idealerweise ist eine Antenne ein Rundstrahler, welcher eine gleichförmige Sendeleistung aufweist. Üblicherweise werden aber Antennen verwendet, welche das Signal richten, also zum Beispiel in der Vertikalen weniger Leistung aufweisen, in der Horizontalen dafür weitreichender sind.
@@ -55,13 +55,13 @@ Das elektromagnetische Signal einer WLAN Anlage wird durch das Übertragungsmedi
 
 $F = (\frac{4\pi r * f }{c})^2$
 
-Für die Frequenz 2.4GHz ergibt sich eine Kurve wie in Abbildung {@fig:freiraumdaempfung} gezeigt.
-<!-- Bild der Kurve-->
-<!-- 
-Sys.setlocales("LC_ALL", "en_US.UTF-8")
+Für die Frequenz 2.4GHz ergibt sich eine Kurve wie in Abbildung {@fig:fa} gezeigt.
+
+![Freiraumdaempfung](img/Freiraumdaempfung.png) {#fig:fa} \
+
+<!-- Sys.setlocales("LC_ALL", "en_US.UTF-8")
 curve(20*log(x,10)+20*log(2400000000,10)-147.55, 0, 1000,  xlab='Distanz (d/m)', ylab='Freiraumdämpfung (dB)')
 -->
-![Freiraumdaempfung](img/Freiraumdaempfung.png) {#fig:freiraumdaempfung}
 
 Neben der Freiraumdämpfung, vermindern auch das Signalkabel vom Sender zur Antenne und Steckverbinder die Ausgangsleistung der gesamten Anlage. Gängige Antennenkabel weisen eine Dämpfung von 117.9dB/100m bis 16.0dB/100m auf.<!-- http://www.profi-wlan.de/info_pages.php/pages_id/13 --> Steckverbinder dämpfen zusätzlich mit 0.2dB bis 0.5dB.
 

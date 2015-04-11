@@ -3,8 +3,7 @@
 # Konzept
 <!-- Konzept ist ein Modell, Hypothese die aufgestellt wird-->
 <!-- Hypothese Erreichung von > 8KM Distanz-->
-Ziel dieses Konzepts ist über eine Distanz grösser 8000 Meter eine WLAN-Verbindung auf zu bauen.
-
+<!-- Ziel dieses Konzepts ist über eine Distanz grösser 8000 Meter eine WLAN-Verbindung auf zu bauen. -->
 
 <!-- 2,4GHz besser geeignet, da bessere Ausbreitung -->
 
@@ -36,11 +35,6 @@ Die verwendete Parabolantenne hat einen Antennengewinn von ~30dBi.
 <!-- Bild Ausbreitungsgraph -->
 
 <!-- Da die Funkverbindung über eine Distanz von 6 Km mit der Yagi-Uda-Antenne sehr instabil und langsam war, wurde eine Yagi-Uda-Antenne auf einem Parabol-Spiegel fixiert, um so eine improvisierte Parabolantenne zu erhalten. -->
-
-
-## Abschluss
-
-<!-- Zusannemfassung -->
 
 
 <!-- Eigener Beitrag zur Lösung des Problems
