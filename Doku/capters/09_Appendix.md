@@ -3,12 +3,24 @@
 
 # Appendix {#appendixA}
 
+## Wavemon
 
-## Zeitpan
-<!-- detaillierte Projektplan -->
+![Screenshot: Wavemon selbstgebaute YAGI](img/router-yagi-reg.jpg) {#fig:router-yagi-reg}
+
+![Screenshot: Wavemon ABAKS YAGI-18](img/yagi-reg.jpg) {#fig:yagi-reg}
+
+![Screenshot: Wavemon Parabolantenne](img/parabol-reg.jpg) {#fig:parabolantenne-reg}
 
 ## Glossar
-TPC (Transmit Power Control) 
+
+**TPC (Transmit Power Control)**
+TPC ist eine Funktionalität, die es der Sendeeinheit erlaubt, die Sendeleistung dynamisch anzupassen.
+
+**Freiraumdämpfung**
+Die Freiraumdämpfung beschreibt die Abschwächung von elektromagnetischen Signalen im freien Raum.
+
+**Antennengewinn**
+Der Antennengewinn beschreibt die Verstärkung des Signals in eine bestimmte Richtung und wird in dBi angegeben.
 
 ## Quellenverzeichnis
 

@@ -40,6 +40,8 @@
 \usepackage{fancyhdr}
 \usepackage{fancyvrb}
 
+\usepackage[section]{placeins}
+
 \usepackage{pdfpages}
 
 \usepackage[firstpage]{draftwatermark}
@@ -83,7 +85,7 @@ $if(graphics)$
 \else\Gin@nat@width\fi}
 \makeatother
 \let\Oldincludegraphics\includegraphics
-\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth,height=20em,keepaspectratio]{#1}}
 $endif$
 
 

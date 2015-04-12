@@ -3,11 +3,9 @@
 # Umsetzung
 
 ## Vorgehen und Messungen
-Es wird nur eine Messung durchgeführt falls auch eine Verbindung hergestellt werden kann. Zur Messung der Signalstärke wird das Linux-Tool $wavemon$ verwendet. Zur Feststellung der Übertragungsgeschwindigkeit und Stabilität der Verbindung wird $iperf$ verwendet.
-<!-- Tools zur Messung -->
+Es wird nur eine Messung durchgeführt falls auch eine Verbindung hergestellt werden kann. Zur Messung der Signalstärke wird das Linux-Tool $wavemon$ verwendet.
 
 ## Richtstrahlantenne
-<!-- Setup + Messungen -->
 Um das WLAN-Signal zu verstärken, wird eine Yagi-Uda-Antenne mit einem Reflektor, einem Signalgeber und fünf Direktoren verwendet. (Siehe Abbildung {@fig:routeryagi}) Dabei handelt es sich um einen Eigenbau. Bauanleitungen mit detaillierten Beschreibungen und Hintergrundinformationen sind online verfügbar. [@eigenbauyagi]
 
 ![RouterYagi](img/router-yagi.jpg) {#fig:routeryagi}
@@ -16,7 +14,7 @@ Der Antennengewinn liegt bei 9.8dBi. Bei einer Entfernung von 200 Metern und ein
 
 Bei einer Distanz von 200 Metern ist ohne ein modifiziertes Gegenstück also immer noch eine sehr gute Verbindung erreichbar. Mit einem handelsüblichen Notebook sind genau -60dBm gemessen worden. (dazu Abbildung {@fig:router-yagi-reg})
 
-![Screenshot: Wavemon selbstgebaute YAGI](img/router-yagi-reg.jpg) {#fig:router-yagi-reg} <!-- additional text needed, description -->
+<!-- additional text needed, description -->
 
 
 ## Richtstrahlantenne II
@@ -31,17 +29,16 @@ Die Sendeleistung von 21.1dB bzw. 22.3dB ergibt sich aus den 24dB maximaler Send
 
 Das gemessene Empfangslevel von -80dBm (dazu Abbildung {@fig:yagi-reg}) bzw. die Differenz von 20dBm zu dem erwarteten Ergebniss, ist den störenden Objekten im Funkpfad geschuldet. 
 
-![Screenshot: Wavemon ABAKS YAGI-18](img/yagi-reg.jpg) {#fig:yagi-reg}
-
 ## Parabolspiegel
 <!-- Setup + Messunge -->
 Die grösste mögliche Distanz mit Sichtverbindung, welche im Rahmen dieser Arbeit betrachtet wird, beträgt bei 8340 Metern.
 
-![Parabolantenne](img/parabol-point.jpg)
+![Parabolantenne ausgerichtet auf das 8340 Meter entfernte Gegenstück](img/parabol-point.jpg) {#fig:parabol-point}
 
 Die WLAN-Parabolantenne ist eine Improvisation um die Richtwirkung der Yagi-Uda-Antenne weiter zu erhöhen. Es handelst sich dabei um einen Handelsüblichen Parabolspiegel, der auch für Satellitenfernsehen eingesetzt wird. Der Antennengewinn beträgt ca. 30dBi. (Abbildung {@fig:parabolantenne})
 
 ![Parabolantenne](img/parabol.png) {#fig:parabolantenne}
 
-Mit der Parabolantenne mit einer Sendeleistung 22.3dB und einer darauf ausgerichteten Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
-![YagiReg](img/parabol-reg.jpg)
+Mit der Parabolantenne mit einer Sendeleistung 22.3dB und der darauf ausgerichteten Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
+
+Der gemessene Signalpegel beträgt -67dBm. (dazu Abbildung {@fig:parabolantenne-reg})
