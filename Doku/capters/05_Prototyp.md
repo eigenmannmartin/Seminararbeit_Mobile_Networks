@@ -27,11 +27,11 @@ Die Sendeleistung von 21.1dB bzw. 22.3dB ergibt sich aus den 24dB maximaler Send
 
 ![ABAKS YAGI-18 im Wald](img/yagi-wald.jpg) {#fig:yagi-18}
 
-Das gemessene Empfangslevel von -80dBm (dazu Abbildung {@fig:yagi-reg}) bzw. die Differenz von 20dBm zu dem erwarteten Ergebniss, ist den störenden Objekten im Funkpfad geschuldet. 
+Das gemessene Empfangslevel von -80dBm (dazu Abbildung {@fig:yagi-reg}) bzw. die Differenz von 20dBm zu dem erwarteten Ergebniss von -60dBm, ist den störenden Objekten (Bäume) im Funkpfad geschuldet. 
 
 ## Parabolspiegel
 <!-- Setup + Messunge -->
-Die grösste mögliche Distanz mit Sichtverbindung, welche im Rahmen dieser Arbeit betrachtet wird, beträgt bei 8340 Metern.
+Die grösste mögliche Distanz mit Sichtverbindung, welche im Rahmen dieser Arbeit betrachtet wird, beträgt 8340 Meter.
 
 ![Parabolantenne ausgerichtet auf das 8340 Meter entfernte Gegenstück](img/parabol-point.jpg) {#fig:parabol-point}
 
@@ -39,6 +39,6 @@ Die WLAN-Parabolantenne ist eine Improvisation um die Richtwirkung der Yagi-Uda-
 
 ![Parabolantenne](img/parabol.png) {#fig:parabolantenne}
 
-Mit der Parabolantenne mit einer Sendeleistung 22.3dB und der darauf ausgerichteten Yagi-Uda-Antenne mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
+Mit der Parabolantenne mit ca 30dBi Antennengewinn, einer Sendeleistung 22.3dB und der darauf ausgerichteten Yagi-Uda-Antenne vom Typ ABAKS YAGI-18 mit einem Antennengewinn von 18dBi und einer Sendeleistung von 21.1dB ist idealerweise ein Empfangslevel von -66dBm erreichbar.
 
 Der gemessene Signalpegel beträgt -67dBm. (dazu Abbildung {@fig:parabolantenne-reg})
