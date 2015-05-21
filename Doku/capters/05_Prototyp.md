@@ -5,6 +5,18 @@
 ## Vorgehen und Messungen
 Es wird nur eine Messung durchgeführt falls auch eine Verbindung hergestellt werden kann. Zur Messung der Signalstärke wird das Linux-Tool $wavemon$ verwendet.
 
+Die Abbildung {@fig:androidap} zeigt einen beispielhaften Screenshot des Linux-Tools. Das UI ist unterteilt in die Sektionen Interface, Levels, Statistics, Info und Network.
+
+![Screenshot: Wavemon Android AP](img/androidap.png) {#fig:androidap}
+
+Die Sektion __Interface__ zeigt die verwendete Netzwerkkarte, in diesem Fall "wlan0", deren Eigenschaften (802.11bg) sowie die ESSID des verbundenen AccessPoints an.
+
+Im Bereich __Levels__ wird die aktuelle Signalstärke in dBm angezeigt. Die Verbindungsqualität (link quality) gibt an, zu welchem Grand die maximale Bandbreite ausgenutzt werden kann.
+
+Die Sektion __Info__ zeigt unter anderem auch, mit welcher Sendeleistung der AccessPoint sendet.
+
+Die Bereiche __Statistics__ und __Network__ zeigen allgemeine Informationen über die Verbindung, den AccessPoint und aufgetretene Fehler während der Verbindung.
+
 ## Richtstrahlantenne
 Um das WLAN-Signal zu verstärken, wird eine Yagi-Uda-Antenne mit einem Reflektor, einem Signalgeber und fünf Direktoren verwendet. (Siehe Abbildung {@fig:routeryagi}) Dabei handelt es sich um einen Eigenbau. Bauanleitungen mit detaillierten Beschreibungen und Hintergrundinformationen sind online verfügbar. [@eigenbauyagi]
 

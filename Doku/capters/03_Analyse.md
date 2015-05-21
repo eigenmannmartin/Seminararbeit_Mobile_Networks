@@ -28,8 +28,15 @@ Standard    Frequenzband    Datenrate (max)
 Table: Standards \label{standards}
 <!-- Quelle? -->
 
+### Sendeleistung
+Die Sendeleistung einer Sendeanlage wird in dBm bzw. Watt angegeben.
+Dabei ist Decibel-milliwat (dBm) der Leistungspebel im der Bezugsgrösse 1mW. Dabei entsprechen 20dBm genau 100mW.
+Die Signalstärke wird üblicherweise nur in dBm angegeben. Bei einer Signalstärke von -37dBm, sprechen wir also von einer messbaren Leistung von $2\times10^{-7}$ Watt.
+
+
 ### Antenne
 Idealerweise ist eine Antenne ein Rundstrahler, welcher eine in alle Richtungen gleiche Sendeleistung aufweist. Üblicherweise werden aber Antennen verwendet, welche das Signal richten, also zum Beispiel in der Vertikalen weniger Leistung aufweisen aber in der Horizontalen dafür weitreichender sind. So haben handelsübliche Stabantennen von Routern etwa eine Verstärkungswirkung um den Faktor zwei in der horizontalen Ebene.
+Diese Verstärkungswirkung wird Antennengewinn genannt und mit der Masseinheit dBi bezeichnet.
 
 ### Sendeanlage
 Eine Sendeanlage umfasst die Sendeeinheit (WLAN-Karte), Antennenkabel und Antenne. Dazugehörend sind auch allfällige Steckverbinder.
@@ -72,3 +79,7 @@ Die Leistung der gesamten Anlage ist im 2.4 GHz Band auf maximal 100mW begrenzt.
 
 ### 5 GHz Frequenzband
 Die Leistung der Anlage ist für das untere 5 GHz Frequenzband (5.15 - 5.35 GHz) ist auf maximal 100mW (200mW falls die Anlage TPC unterstützt) und für das obere 5 GHz Frequenzband (5.47 - 5.725 GHz) auf maximal 500mW (1000mW falls die Anlage TPC unterstützt) begrenzt. [@bakomwlan]
+
+## Blick über den Tellerrand
+Das GSM Netzwerk erlaubt bei einer Frequenz von 900MHz eine maximale Ausgangsleistung von 2 Watt. Dies erlaubt es Distanzen von etwa 7 km bei direkter Sichtverbindung zu überbrücken.
+

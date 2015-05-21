@@ -9,6 +9,9 @@
 
 Im Rahmen dieser Arbeit sollen Lösungsvorschläge erarbeitet werden, die die Reichweite von WLAN-Anlagen erhöhen können.
 
+## Frequenzband
+Die Freiraumdämpfung nimmt mit höherer Frequenz aber gleicher Distanz zu. Es soll also das tiefste Frequenzband verwendet werden.
+
 ## Verminderung der Dämpfung
 <!-- Bessere Antenne/Stecker  + Erklärung der Verbesserung, Verbesserung Empfang und Sende-Leistung-->
 Um die Ausgangsleistung zu maximieren, muss die Dämpfung zwischen Sender und Antenne minimiert werden. Dies wird duch wenige jedoch qualitativ hochwertige Steckverbinder und sehr kurze Signalkabel sichergestellt.
