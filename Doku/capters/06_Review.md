@@ -25,6 +25,11 @@ Sowohl bezüglich der Leistung als auch der Handhabung überzeugt die eingesetzt
 Selbstgebaute Yagi-Uda-Antennen überzeugen zwar für den Heimgebrauch. Ihre Leistungsfähigkeit ist für einen professionellen Gebrauch ist jedoch ungeeignet.
 Grosse Parabolantennen überzeugen zwar in Puncto Leistung, haben jedoch bei Handhabung und Preis deutliche Defizite.
 
+## Beantwortung der Aufgabenstellung
+Obwohl, wie in der Arbeit gezeigt, eine WLAN-Verbindung über grössere Distanzen herstellbar ist, ist dies in der Praxis eher unrealistisch, da grosse und aufwendige Antennenkonstruktionen benötigt werden. Darüber hinaus wird mit Richtstahlantennen die Ausbreitung des Signals in nur eine Richtung vergrössert und bietet so nur in speziellen Use-Cases einen Mehrwert.
+
+Unabhängigkeit von Drittanbietern kann mit einem eigenen Antennennetzwerk zwar erreicht werden, ist jedoch ohne angepasste Empfangsgeräte nicht realisierbar.
+
 
 <!-- Sinngemäss gilt das unter Punkt 2.4 Gesagte. Jedoch findet hier die (oft schwierige)
 Auseinandersetzung mit der eigenen Arbeit statt. Typische Fragen sind:

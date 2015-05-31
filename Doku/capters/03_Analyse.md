@@ -30,8 +30,10 @@ Table: Standards \label{standards}
 
 ### Sendeleistung
 Die Sendeleistung einer Sendeanlage wird in dBm bzw. Watt angegeben.
-Dabei ist Decibel-milliwat (dBm) der Leistungspebel im der Bezugsgrösse 1mW. Dabei entsprechen 20dBm genau 100mW.
-Die Signalstärke wird üblicherweise nur in dBm angegeben. Bei einer Signalstärke von -37dBm, sprechen wir also von einer messbaren Leistung von $2\times10^{-7}$ Watt.
+Dabei ist Decibel-milliwat (dBm) der Leistungspebel im der Bezugsgrösse 1mW. So entsprechen 20dBm genau 100mW.
+Die Signalstärke wird üblicherweise nur in dBm angegeben, da es unerheblich ist, wie viel Watt der Sender benötigt, um eine bestimmte Signalstärke beim Empfänger zu erzeugen.
+
+Bei einer Signalstärke von -37dBm, sprechen wir also von einer messbaren Leistung von $2\times10^{-7}$ Watt. Die maximale Übertragungsrate kann, ja nach Empfänger, sogar noch bei -65dBm erreicht werden.
 
 
 ### Antenne
