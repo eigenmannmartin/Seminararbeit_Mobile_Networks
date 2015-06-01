@@ -5,8 +5,8 @@
 Die 3 umgesetzten Antennenkonzepte erfüllen unterschiedliche Anforderungen. Bewertet werden die Konzepte und deren Umsetzung deshalb in Bezug auf Reichweite, Handhabbarkeit, Einsatzgebiet und Kosten.
 
 ## Richtstrahlantenne
-Die Reichweite erweitert sich auf ca. 200 Meter. Der Bau sowie die Installation erfordern kein spezifisches Fachwissen und sind sehr einfach und schnell zu erledigen; Sofern der Router über externe Antennen verfügt.
-Typischerweise können so Funklöcher innerhalb einer Wohnung oder Wohnkomplex abgedeckt werden.
+Die Reichweite erweitert sich auf ca. 200 Meter. Der Bau sowie die Installation erfordern kein spezifisches Fachwissen und sind sehr einfach und schnell zu erledigen; sofern der Router über externe Antennen verfügt.
+Typischerweise können so Funklöcher innerhalb einer Wohnung oder einem Wohnkomplex abgedeckt werden.
 Die Kosten belaufen sich auf wenige Rappen bis Franken.
 
 ## Richtstrahlantenne II 
@@ -16,13 +16,13 @@ Die Kosten belaufen sich auf etwa 100 CHF.
 
 ## Parabolspiegel
 Die Reichweite scheint fast unbegrenzt. Im Test konnten mehr als 8 Kilometer Funkstrecke überwunden werden. Die Installation erfordert Fachwissen und Geduld bei der Ausrichtung der Antennen. Üblicherweise werden auch Sendekarten mit höheren Ausgangsleistungen verwendet, um so an der Antenne die maximal erlaubten 20dB zu erreichen.
-Parabolantennen werden nur selten im zivilen Umfeld verwendet, geraden wegen ihrer aufwändigeren Handhabung.
+Parabolantennen werden nur selten im zivilen Umfeld verwendet, gerade wegen ihrer aufwändigeren Handhabung.
 Die Kosten bewegen sich je nach verwendetem Parabolspiegel und Antenne im gehobenen drei stelligen Franken Bereich.
 
 
 ## Bewertung
 Sowohl bezüglich der Leistung als auch der Handhabung überzeugt die eingesetzte Yagi-Uda-Antenne (ABAKS YAGI-18). Einfache Installation und grossartige Leistung um grosse Distanzen zu überbrücken runden das Paket hab. 
-Selbstgebaute Yagi-Uda-Antennen überzeugen zwar für den Heimgebrauch. Ihre Leistungsfähigkeit ist für einen professionellen Gebrauch ist jedoch ungeeignet.
+Selbstgebaute Yagi-Uda-Antennen überzeugen zwar für den Heimgebrauch, ihre Leistungsfähigkeit ist für einen professionellen Gebrauch jedoch ungeeignet.
 Grosse Parabolantennen überzeugen zwar in Puncto Leistung, haben jedoch bei Handhabung und Preis deutliche Defizite.
 
 ## Beantwortung der Aufgabenstellung

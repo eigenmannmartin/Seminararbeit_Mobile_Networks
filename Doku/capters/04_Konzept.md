@@ -20,16 +20,16 @@ Um die Ausgangsleistung zu maximieren, muss die Dämpfung zwischen Sender und An
 
 ## Erhöhung der Sendeleistung
 <!-- Rechtliche Grenzen +  Erklärung der Verbesserung-->
-Die maximal zulässige Sendeleistung vom 20dBm wird nicht von allen WLAN-Karten untersützt. Der Ubiquiti SuperRange Cardbus kann bei einer Übertragungsrate von 54Mbps, immer noch mit einer Sendeleistung von 20dBm operieren. Unterhalb Übertragungsraten von 24Mbps sind sogar 24dBm Ausgangsleistung möglich.
+Die maximal zulässige Sendeleistung von 20dBm wird nicht von allen WLAN-Karten untersützt. Der Ubiquiti SuperRange Cardbus kann bei einer Übertragungsrate von 54Mbps immer noch mit einer Sendeleistung von 20dBm operieren. Unterhalb Übertragungsraten von 24Mbps sind sogar 24dBm Ausgangsleistung möglich.
 <!-- http://dl.ubnt.com/src_datasheet.pdf -->
 
-Zu beachten ist, dass die Ausgangsleistung (dBm) logarithmisch von der Sendeleistung (mW) der WLan-Karte abhängig ist. So bringt doppelte Sendeleistung nicht die doppelte Ausgangsleistung.
+Zu beachten ist, dass die Ausgangsleistung (dBm) logarithmisch von der Sendeleistung (mW) der WLAN-Karte abhängig ist. So bringt doppelte Sendeleistung nicht die doppelte Ausgangsleistung.
 
 ## Richtstrahlantenne
 <!-- Verbesserung Empfang und Sende-Leistung -->
 Statt einen Rundstrahler zu verwenden, kann auch eine gerichtete Verstärkung des Signals vorgenommen werden. Dazu werden typischerweise Richstrahlantennen eingesetzt.
 Neben der Yagi-Uda-Antenne, Wendelantenne und der Quadantenne gibt es auch Parabolantennen.
-Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich stark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus. Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule, sowie der Aubildung von Neben- und Rückkeulen.
+Yagi-Uda-Antennen erreichen eine Richtverstärkung von 3dBi bis 18dBi. Ähnlich stark sind auch Quadantennen sowie Wendelantennen. Parabolantennen erreichen hingegen Antennengewinne von 20dBi bis weit über 50dBi hinaus. Die Signalausbreitung der verschiedenen Antennen unterscheiden sich sehr im Öffnungswinkel (Strahlbreite) der Hauptkeule sowie der Aubildung von Neben- und Rückkeulen.
 
 Die im Rahmen dieser Arbeit verwendeten Richstrahlantennen sind eine Yagi-Uda-Antenne mit einem Antennengewinn von 9.8 dBi bzw. 18dBi.
 
