@@ -6,7 +6,7 @@
 
 Wer kennt das nicht, das mobile Datennetz ist langsam oder das Datenvolumen ist bereits aufgebraucht; im entscheidenden Moment lädt das Bild oder Video dann nicht. Wäre es nicht viel angenehmer überall WLAN Empfang zu haben.
 
->Zuhause ist, wo sich das WLAN sofort verbindet.
+>_"Zuhause ist, wo sich das WLAN sofort verbindet."_
 
 Diese Arbeit soll aufzeigen wo die Grenzen von WLAN sind und ob die Grenzen nicht vielleicht doch etwas entfernter liegen, als intuitiv vermutet.
 

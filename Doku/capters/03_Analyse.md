@@ -70,7 +70,7 @@ Neben der Freiraumdämpfung vermindern auch das Signalkabel vom Sender zur Anten
 
 Moderne WLAN-Geräte besitzen eine Empfangsempfindlichkeit von bis zu -96dBm bei 1Mbps. Bei höheren Übertragungsraten nimmt die Empfangsempfindlichkeit systembedingt ab. So sind bei 54Mbps und hochwertigen Endgeräten -73dBm zu erwarten.
 
-Bei einer Sendeleistung von genau 20dBm (entspricht 100mW) und unter Verwendung eines isotropen Kugelstrahlers (einer idealen Rundstrahlentanne) können, bei einer Empfangsempfindlichkeit von -73dBm maximal 443m Distanz überwunden werden. In der Praxis werden weder 20dBm Ausgangsleistung erreicht noch existieren absolut störungsfreie Räume.
+Bei einer Sendeleistung von genau 20dBm (entspricht 100mW) und unter Verwendung eines isotropen Kugelstrahlers (einer idealen Rundstrahlentanne) können, bei einer Empfangsempfindlichkeit von -73dBm maximal 443m Distanz überwunden werden. In der Praxis werden weder 20dBm Ausgangsleistung erreicht, noch existieren absolut störungsfreie Räume.
 
 
 ## Rechtliche Limitationen

@@ -10,7 +10,7 @@ Typischerweise können so Funklöcher innerhalb einer Wohnung oder einem Wohnkom
 Die Kosten belaufen sich auf wenige Rappen bis Franken.
 
 ## Richtstrahlantenne II 
-Die Reichweite steigert sich enorm. Im Test war über 1 Kilometer Funkstrecke überbrückbar. Die Installation erfordert kein spezifisches Fachwissen, lediglich die Ausrichtung der Antennen muss sehr sorgfältig durchgeführt werden. Diese Art von Richtstrahlantennen setzen ausserdem voraus dass auf Empfänger- und Sender-Seite Modifikationen vorgenommen werden und fordern daher einen grösseren Aufwand bei der Installation.
+Die Reichweite steigert sich enorm. Im Test war über 1 Kilometer Funkstrecke überbrückbar. Die Installation erfordert kein spezifisches Fachwissen, lediglich die Ausrichtung der Antennen muss sehr sorgfältig durchgeführt werden. Diese Art von Richtstrahlantennen setzen ausserdem voraus, dass auf Empfänger- und Sender-Seite Modifikationen vorgenommen werden und fordern daher einen grösseren Aufwand bei der Installation.
 Typischerweise wird mit Leistungsstarken Yagi-Uda-Antennen ein Kommunikationskanal über Gebäudegrenzen hinweg realisiert.
 Die Kosten belaufen sich auf etwa 100 CHF.
 
@@ -28,7 +28,7 @@ Grosse Parabolantennen überzeugen zwar in Puncto Leistung, haben jedoch bei Han
 ## Beantwortung der Aufgabenstellung
 Obwohl, wie in der Arbeit gezeigt, eine WLAN-Verbindung über grössere Distanzen herstellbar ist, ist dies in der Praxis eher unrealistisch, da grosse und aufwendige Antennenkonstruktionen benötigt werden. Darüber hinaus wird mit Richtstahlantennen die Ausbreitung des Signals in nur eine Richtung vergrössert und bietet so nur in speziellen Use-Cases einen Mehrwert.
 
-Unabhängigkeit von Drittanbietern kann mit einem eigenen Antennennetzwerk zwar erreicht werden, ist jedoch ohne angepasste Empfangsgeräte nicht realisierbar.
+Unabhängigkeit von Drittanbietern kann mit einem eigenen Antennennetzwerk erreicht werden, ist jedoch ohne speziell angepasste Empfangsgeräte nicht realisierbar.
 
 
 <!-- Sinngemäss gilt das unter Punkt 2.4 Gesagte. Jedoch findet hier die (oft schwierige)
